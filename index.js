@@ -907,16 +907,48 @@
 // startProcess();
 
 
-//ES6 Modules
-//The idea behind a module is that it's a file of reuseable code
-//We can import sections of pre-written code to use whenever we need it
-//Great for any general utility values and functions
-//Helps to make your code more reusable and maintainable
-//Think of modules as separate chapters of a book
-// import{PI, getArea, getCircumference} from "./math_util.js"
-import * as MathUtil from "./math_util.js"
-console.log(MathUtil.PI);
-let c = MathUtil.getCircumference(10);
-let a = MathUtil.getArea(10);
-console.log(c +" "+ a);
+// //ES6 Modules
+// //The idea behind a module is that it's a file of reuseable code
+// //We can import sections of pre-written code to use whenever we need it
+// //Great for any general utility values and functions
+// //Helps to make your code more reusable and maintainable
+// //Think of modules as separate chapters of a book
+// // import{PI, getArea, getCircumference} from "./math_util.js"
+// import * as MathUtil from "./math_util.js"
+// console.log(MathUtil.PI);
+// let c = MathUtil.getCircumference(10);
+// let a = MathUtil.getArea(10);
+// console.log(c +" "+ a);
+
+//DOM = Document Object Model (API)
+//An interface for changing the content of a page
+// console.log(document);
+// console.dir(document)
+// console.log(document.title);
+// console.log(document.URL);
+// document.title = "Title goes here"
+// document.location = "https://www.google.com"
+// document.body.style.backgroundColor ="skyblue";
+// document.getElementById("myLabel").innerHTML = "HELLO!"
+// let element = document.getElementById("myTitle");
+// element.style.backgroundColor="lightgreen";
+// let fruits = document.getElementsByName("fruits");
+// console.log(fruits)
+// fruits.forEach(fruit => {
+//     if(fruit.checked){
+//         console.log(fruit.value)
+//     }
+// })
+// let vegetables = document.getElementsByTagName("li");
+// vegetables[2].style.backgroundColor = "green";
+// let desserts = document.getElementsByClassName("desserts");
+// desserts[1].style.backgroundColor = "blue";
+// let element = document.querySelector("[for]");
+// element.style.backgroundColor = "pink";
+// let elements = document.querySelectorAll(".desserts");
+// elements.forEach(element =>{
+//     element.style.backgroundColor = "purple"
+// })
+
+
 
