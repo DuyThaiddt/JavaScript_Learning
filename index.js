@@ -3,6 +3,7 @@
 // console.log("I like hamburger");
 // // window.alert("Fuck youuuuu");
 
+
 // let age = 20;
 // let firstName = "Duy";
 // let lastName = "Thai";
@@ -11,9 +12,11 @@
 // console.log("You are now " + age + " years old");
 // console.log("Enroll: " + student);
 
+
 // document.getElementById("p1").innerHTML = "Hello " + firstName + " " + lastName;
 // document.getElementById("p2").innerHTML = "You are " + age + " years old";
 // document.getElementById("p3").innerHTML = student;
+
 
 // let student = 20;
 // let extraStudent = student % 3;
@@ -21,12 +24,14 @@
 // console.log("Student: " + student);
 // console.log("ExtraStudent: " + extraStudent);
 
+
 // let username = window.prompt("What's your name?");
 // let username;
 // document.getElementById("myButton").onclick = function(){
 //     username = document.getElementById("myText").value;
 //     console.log(username);
 // }
+
 
 // let age = window.prompt("How old are you?");
 // console.log(typeof age);
@@ -44,10 +49,12 @@
 // console.log(typeof y);
 // console.log(typeof z);
 
+
 // let user = window.prompt("Enter your username");
 // let password = window.prompt("Enter your password");
 // console.log(user);
 // console.log(password);
+
 
 // const PI = 3.1415926;
 // let r;
@@ -56,6 +63,7 @@
 // r = Number(r);
 // c = 2*PI*r;
 // console.log("The circumference of the circle is " + c);
+
 
 // let x = 3.14;
 // let y = 5;
@@ -73,14 +81,15 @@
 // x = Math.PI;
 // console.log(x);
 
+
 // let a, b, c;
 // a = window.prompt("Enter size a");
 // a = Number(a);
 // b = window.prompt("Enter size b");
 // b = Number(b);
 // c=Math.sqrt(Math.pow(a,2) + Math.pow(b,2));
-
 // console.log("size c: "+ c);
+
 
 // document.getElementById("submit").onclick = function () {
 //     let a, b, c;
@@ -89,6 +98,7 @@
 //     c = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
 //     document.getElementById("cLabel").innerHTML = "Size c: "+ c;
 // }
+
 
 // let username = "        Dao Duy Thai      ";
 // let phoneNumber = "079-6428-094";
@@ -109,9 +119,11 @@
 // console.log(firstName);
 // console.log(lastName);
 
+
 // let userName = "duythai";
 // let letter = userName.charAt(0).toUpperCase();
 // console.log(letter);
+
 
 // let age = window.prompt("You age:");
 // if(age >= 18){
@@ -119,6 +131,7 @@
 // }else if(age < 0){
 //     console.log("You haven been born yet");
 // }
+
 
 // else{
 //     console.log("You are not an adult");
@@ -152,6 +165,7 @@
 //     }
 // }
 
+
 // let grade = window.prompt("Enter your grade");
 // switch (true) {
 //     case grade == "A":
@@ -173,6 +187,7 @@
 //         window.alert(grade + " is not appropriate!");
 // }
 
+
 // while(1==1){
 //     console.og("Help, I am stuck in a loop!");
 // }
@@ -192,6 +207,7 @@
 //     console.log(count);
 // }
 
+
 // let row = window.prompt("Enter the number of rows");
 // let col = window.prompt("Enter the number of columns");
 // for(let i = 0; i < row; i++){
@@ -200,6 +216,7 @@
 //     }
 //     document.getElementById("myRectangle").innerHTML += "<br>";
 // }
+
 
 // console.log("Hello world");
 // function setup(){
@@ -212,6 +229,7 @@
 //     console.log("You are now "+age+" years old");
 // }
 // setup();
+
 
 // let area, width, height;
 // width = window.prompt("Enter the width of the rectangle");
@@ -233,6 +251,7 @@
 //     win ? console.log("You win"):console.log("You lose");
 // }
 
+
 // let userName = "Thai";
 // let items = 3;
 // let total = 75;
@@ -246,12 +265,14 @@
 // console.log(text);
 // document.getElementById("myLabel").innerHTML = text;
 
+
 // let myNum = 100;
 // // myNum = myNum.toLocaleString("vi-VN", {style: "currency",currency: "VND"});
 // // myNum = myNum.toLocaleString("hi-IN", {style: "currency",currency: "INR"});
 // // myNum = myNum.toLocaleString(undefined, {style: "percent"});
 // myNum = myNum.toLocaleString(undefined, { style: "unit", unit: "mile-per-hour" });
 // console.log(myNum);
+
 
 // let fruits = ["apple", "orange", "banana", "mango"];
 // fruits.push("grape");
@@ -264,6 +285,7 @@
 // console.log(length);
 // console.log(fruits);
 
+
 // let prices = [5, 10, 15, 20, 25];
 // // for(let i = prices.length - 1; i >= 0; i--){
 // //     console.log(prices[i]);
@@ -272,12 +294,14 @@
 //     console.log(i);
 // }
 
+
 // let fruits = ["banana", "apple", "orange", "mango"];
 // // fruits = fruits.sort();
 // fruits = fruits.sort().reverse();
 // for(let fruit of fruits){
 //     console.log(fruit);
 // }
+
 
 // let fruits =        ["apples",  "oranges",  "bananas"];
 // let vegetables =    ["carrots", "onions",   "potatoes"];
@@ -290,6 +314,7 @@
 //     }
 // }
 
+
 // let username = "Thai Dep Trai";
 // let number = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let maximum = Math.max(...number);
@@ -298,6 +323,7 @@
 // let class2 = ["Ngoc", "Hieu", "Hai"];
 // class1.push(...class2);
 // console.log(class1);
+
 
 // let a = 1;
 // let b = 2;
@@ -312,6 +338,7 @@
 //     }
 //     return total;
 // }
+
 
 // let total = sum(2, 3);
 // displayDOM(total);
@@ -330,6 +357,7 @@
 //     document.getElementById("myLabel").innerHTML = output;
 // }
 
+
 // let students = ["thai", "duy", "dao"];
 // students.forEach(capitalize);
 // students.forEach(print);
@@ -340,6 +368,7 @@
 // function print(element){
 //     console.log(element);
 // }
+
 
 // let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let squares = numbers.map(square);
@@ -356,6 +385,7 @@
 //     console.log(element);
 // }
 
+
 // let ages = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 // let adults = ages.filter(checkAge30);
 // adults.forEach(print);
@@ -366,12 +396,14 @@
 //     console.log(element);
 // }
 
+
 // let prices = [5, 10, 15, 20, 25];
 // let total = prices.reduce(checkOut);
 // function checkOut(total, element){
 //     return total + element;
 // }
 // console.log(`the total is ${total}`);
+
 
 // let grades = [100, 50, 75, 90, 80, 85, 95, 70, 60, 65];
 // grades = grades.sort(sortAsc);
@@ -389,6 +421,7 @@
 //     console.log("Hello");
 // }
 // greetings();
+
 
 // let count = 0;
 // // function increase(){
@@ -408,9 +441,11 @@
 //     document.getElementById("count").innerHTML = count;
 // }
 
+
 // const greeting = (username) => console.log(`Hello ${username}`);
 // const percent = (x, y) => x/y*100;
 // console.log(percent(5, 10));
+
 
 // let grades = [100, 50, 75, 90, 80, 85, 95, 70, 60, 65];
 // grades.sort((x, y) => y-x);
@@ -424,6 +459,7 @@
 // function print(element){
 //     console.log(element);
 // }
+
 
 // shuffle
 // let cards = ["A", "2", "3", "4", "5", "6", "7", "8", "9", "10","J", "Q", "K"];
@@ -442,6 +478,7 @@
 //     return array;
 // }
 
+
 // const store = new Map([
 //     ["T-shirt", 20],
 //     ["Jeans", 30],
@@ -457,13 +494,15 @@
 // console.log(shoppingCart);
 // store.forEach((value, key) => console.log(`${key} $${value}`))
 
+
+
+
 /*------------------------------------------------OOP------------------------------------------------*/
 
 // const car1 = {
 //     model: "BMW",
 //     color: "black",
 //     year: 2020,
-
 //     drive: function () {
 //         console.log(`You are driving this ${this.model}`);
 //     },
@@ -475,7 +514,6 @@
 //     model: "Toyota",
 //     color: "red",
 //     year: 2021,
-
 //     drive: function () {
 //         console.log(`You are driving this ${this.model}`);
 //     },
@@ -489,9 +527,11 @@
 // car2.drive();
 // car2.brake();
 
+
 //this keyword
 // this.name = "myWindows"
 // console.log(this);
+
 
 //class =   blueprint for creating objects
 // class Player{
@@ -504,9 +544,11 @@
 //     }
 // }
 
+
 // const player1 = new Player();
 // console.log(player1.score);
 // player1.exit();
+
 
 // class Student {
 //     constructor(name, age, gpa) {
@@ -520,6 +562,7 @@
 // }
 // const student1 = new Student("Thai", 20, 4.0);
 // student1.study();
+
 
 //static
 // class Car{
@@ -536,6 +579,7 @@
 // const car2 = new Car("Toyota");
 // console.log(Car.numberOfCars);
 // Car.startRace();
+
 
 //inheritance = a chile class can inherit all the methods and properties from another class
 // class Animal {
@@ -566,8 +610,10 @@
 //     }
 // }
 
+
 // const hawk1 = new Hawk();
 // hawk1.eat();
+
 
 //super class
 // class Animal{
@@ -595,6 +641,7 @@
 //     }
 // }
 
+
 // class Animal{
 // }
 // class Rabbit extends Animal{
@@ -607,6 +654,7 @@
 
 // }
 // const rab1 = new Rabbit("Rab1", 2, 10);
+
 
 //Getter and Setter
 // class Car {
@@ -633,6 +681,7 @@
 // car.gas = 1000000;
 // console.log(car.power);
 // console.log(car.gas);
+
 
 // class Car{
 //     constructor(model, year, color){
@@ -668,6 +717,7 @@
 //     }
 // }
 
+
 // class Card {
 //     constructor(value, suit) {
 //         this.value = value;
@@ -702,6 +752,7 @@
 //     console.log("This always executes");
 // }
 
+
 //setTimeout()
 // let item = "cryptocurrency";
 // let price = 1000;
@@ -724,6 +775,7 @@
 //     alert("Thank you for your purchase!");
 // }
 
+
 //setInterval()
 // let count = 0; 
 // let max = window.prompt("Count up to what #?");
@@ -736,6 +788,7 @@
 //         clearInterval(myTimer);
 //     }
 // }
+
 
 //Date objects
 // let date = new Date();
@@ -771,6 +824,7 @@
 //     return `${hour}:${minute}:${second} ${amOrPm}`
 // }
 
+
 // //synchronous code = In an ordered sequence, Step by step linear instructions (start now, finish now)
 // console.log("start");
 // console.log("this step is synchronous");
@@ -781,11 +835,13 @@
 // setTimeout(() => console.log("This is asynchronous"), 5000);
 // console.log("end")
 
+
 // //console.time() = start a timer you can use to track how lobng an operation takes
 // console.time("Response time");
 // alert("click me")
 // setTimeout(()=>console.log("Hello"), 1000)
 // console.timeEnd("Response time")
+
 
 //promises = object that encapsulates the result of an asynchronous operation
 //let asynchronous methods return values like synchronous methods
@@ -808,6 +864,7 @@
 // })
 // wait(3000).then(()=>console.log("Thanks for waiting!"));
 
+
 //async = makes a function return a Promise
 // async function loadFile() {
 //     let fileLoaded = true;
@@ -829,7 +886,37 @@
 // loadFile().then(value => console.log(value))
 //     .catch(error => console.log(error));
 
-//awake = makes a async function wait for a Promise
+
+// //await = makes a async function wait for a Promise
+// async function loadFile() {
+//     let fileLoaded = false;
+//     if (fileLoaded) {
+//         return "File loaded";
+//     } else {
+//         throw "File not loaded";
+//     }
+// }
+// async function startProcess() {
+//     try {
+//         let message = await loadFile();
+//         console.log(message);
+//     } catch (error) {
+//         console.log(error);
+//     }
+// }
+// startProcess();
 
 
+//ES6 Modules
+//The idea behind a module is that it's a file of reuseable code
+//We can import sections of pre-written code to use whenever we need it
+//Great for any general utility values and functions
+//Helps to make your code more reusable and maintainable
+//Think of modules as separate chapters of a book
+// import{PI, getArea, getCircumference} from "./math_util.js"
+import * as MathUtil from "./math_util.js"
+console.log(MathUtil.PI);
+let c = MathUtil.getCircumference(10);
+let a = MathUtil.getArea(10);
+console.log(c +" "+ a);
 
