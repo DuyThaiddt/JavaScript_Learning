@@ -1136,4 +1136,76 @@
 // context.fillText("FUCK YOU", canvas.width/2, canvas.height/2);
 
 
+//window = interface used to talk to the web browser
+// console.dir(window);
+// console.log(window.innerWidth);
+// console.log(window.innerHeight);
+// console.log(window.scrollX);
+// console.log(window.scrollY);
+// console.log(window.location.href)
+// window.location.href = "https://www.facebook.com"
+// console.log(window.location.hostname);
+// console.log(window.location.pathname);
+// const myButton = document.getElementById("myBt");
+// myButton.addEventListener("click", () => window.open("https://google.com"));
+// myButton.addEventListener("click", () => window.close());
+// myButton.addEventListener("click", () => window.print());
+// window.confirm("Press OK to continue")
+// let age = window.prompt("Enter your age");
+// if (age < 18){
+//     window.alert("You must be 18+ to visit this site")
+// }
+
+
+//cookie = a small text file stored on your computer 
+// used to remember information about the user 
+// saved in name = value pair
+// document.cookie = "firstName=Thai; expires=Sun, 1 Aug 2023 12:00:00 UTC; path=/";
+// document.cookie = "lastName=Dao; expires=Sun, 1 Aug 2023 12:00:00 UTC; path=/";
+// console.log(document.cookie)
+// setCookie("Thai dep trai", "Email",1);
+// deleteCookie("Thai dep trai");
+// setCookie("email", "dduythai.ddt@gmail.com", 1);
+// setCookie("password", "fuckyou", 1);
+// console.log(getCookie("email"))
+// deleteCookie("Thai dep trai");
+// deleteCookie("email");
+// deleteCookie("password");
+// console.log(document.cookie)
+// function setCookie(name, value, daysToLive) {
+//     const date = new Date();
+//     date.setTime(date.getTime() + daysToLive * 24 * 60 * 60 * 1000);
+//     let expired = "expired=" + date.toUTCString();
+//     document.cookie = `${name}=${value}; ${expired}; path=/`;
+// }
+// function deleteCookie(name) {
+//     setCookie(name, "", -1);
+// }
+// function getCookie(name) {
+//     const cDecoded = decodeURIComponent(document.cookie);
+//     // console.log(cDecoded);
+//     let result = null;
+//     const cArray = cDecoded.split("; ");
+//     cArray.forEach((element) => {
+//         if (element.indexOf(name) == 0) {
+//             result = element.substring(name.length + 1)
+//         }
+//     })
+//     return result;
+// }
+// const firstText = document.querySelector("#firstText");
+// const lastText = document.querySelector("#lastText");
+// const submitBt = document.querySelector("#submitBt");
+// const cookieBt = document.querySelector("#cookieBt");
+// submitBt.addEventListener("click", () => {
+//     setCookie("firstName", firstText.value, 1);
+//     setCookie("lastName", lastText.value, 1);
+// })
+// // deleteCookie("firstName");
+// // deleteCookie("lastName");
+// cookieBt.addEventListener("click", () => {
+//     firstText.value = getCookie("firstName");
+//     lastText.value = getCookie("lastName");
+// })
+// console.log(getCookie("firstName"));
 
