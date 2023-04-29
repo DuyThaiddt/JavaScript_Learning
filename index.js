@@ -920,6 +920,7 @@
 // let a = MathUtil.getArea(10);
 // console.log(c +" "+ a);
 
+
 //DOM = Document Object Model (API)
 //An interface for changing the content of a page
 // console.log(document);
@@ -949,6 +950,190 @@
 // elements.forEach(element =>{
 //     element.style.backgroundColor = "purple"
 // })
+
+
+// let element = document.querySelector("#fruits");
+// let children = Array.from(element.children);
+// // console.log(sibling);
+// children.forEach(child => child.style.backgroundColor = "red")
+// // children.style.backgroundColor = "red";
+// // .firstElementChild
+// // .lastElementChild
+// // .parentElement
+// // .nextElementSibling
+// // .previousElementSibling
+// // .children[]
+// // Array.from(.children)
+
+
+// const nameTag = document.createElement("h1");
+// nameTag.innerHTML = window.prompt("What is your name?");
+// document.body.append(nameTag);
+
+
+// const myList = document.querySelector("#fruits");
+// const listItem = document.createElement("li");
+// listItem.textContent = "Mango";
+// // myList.prepend(listItem);
+// myList.insertBefore(listItem, myList.getElementsByTagName("li")[2]);
+
+
+// const title = document.querySelector("#myTitle");
+// title.style.color = "red";
+
+
+// // const element = document.getElementById("myButton");
+// // element.onclick = doSomething;
+// // const element = document.body;
+// // element.onload = doSomething;
+// // const element = document.getElementById("myInput");
+// // element.onchange = doSomething;
+// const element = document.getElementById("myDiv");
+// // element.onmouseover = changeColor;
+// // element.onmouseout = changeColorBack;
+// element.onmousedown = changeColor;
+// element.onmouseup = changeColorBack;
+// function doSomething(){
+//   window.alert("Hello");
+// }
+// function changeColor(){
+//   element.style.backgroundColor = "red";
+// }
+// function changeColorBack(){
+//   element.style.backgroundColor = "aqua";
+// }
+
+
+// const innerDiv = document.getElementById("innerDiv");
+// const outerDiv = document.getElementById("outerDiv");
+// // innerDiv.addEventListener("mouseover", changeRed);
+// // innerDiv.addEventListener("mouseout", changeBlue);
+// innerDiv.addEventListener("click", changeRed);
+// outerDiv.addEventListener("click", changeRed, true);
+// function changeRed(){
+//   alert(`You selected ${this.id}`);
+//   this.style.backgroundColor = "red";
+// }
+// function changeBlue(){
+//   alert(`You selected ${this.id}`);
+//   this.style.backgroundColor = "aqua";
+// }
+
+
+// const myButton = document.querySelector("#myButton");
+// const myImg = document.querySelector("#myImg");
+// myButton.addEventListener("click", () => {
+//   if (myImg.style.visibility == "hidden") {
+//     myImg.style.visibility = "visible";
+//   }else{
+//     myImg.style.visibility = "hidden";
+//   }
+// });
+
+
+// //Keydetect
+// const myDiv = document.getElementById("myDiv");
+// window.addEventListener("keydown", move);
+// window.addEventListener("keydown", (event) => console.log(event.key));
+// let x = 0;
+// let y = 0;
+// function move(event) {
+//   switch (event.key) {
+//     case "ArrowDown":
+//       y += 5;
+//       myDiv.style.top = y + "px";
+//       break;
+//     case "ArrowUp":
+//       y -= 5;
+//       myDiv.style.top = y + "px";
+//       break;
+//     case "ArrowRight":
+//       x += 5;
+//       myDiv.style.left = x + "px";
+//       break;
+//     case "ArrowLeft":
+//       x -= 5;
+//       myDiv.style.left = x + "px";
+//       break ;  
+//   }
+// }
+
+
+// const myButton = document.getElementById("myButton");
+// const myAnimation = document.getElementById("myDiv");
+// myButton.addEventListener("click", begin);
+// function begin() {
+//   // let timerId = null;
+//   let x = 0;
+//   let y = 0;
+//   let degrees = 0;
+//   let timerID = setInterval(frame,5);
+//   function frame(){
+//     if(degrees>=360){
+//       clearInterval(timerID);
+//     }else{
+//       degrees++;
+//       myAnimation.style.transform = "rotateX("+degrees+"deg)";
+//     }
+//     // if(x >= 200 || y >=200){
+//     //   clearInterval(timerID);
+//     // }else{
+//     //   x++;
+//     //   y++;
+//     //   myAnimation.style.left = x + "px";
+//     //   myAnimation.style.top = y + "px";
+//     // }
+//   }
+// }
+
+
+// Canvas API  = means for drawing graphics used for Animation games, data visualisation
+// let canvas = document.getElementById("myCanvas");
+// let context = canvas.getContext("2d");
+// context.strokeStyle = "red";
+// context.lineWidth = 10;
+// context.beginPath();
+// context.moveTo(0,0);
+// context.lineTo(250,250);
+// context.lineTo(250,500);
+// context.moveTo(500,0);
+// context.lineTo(250,250);
+// context.stroke();
+// //DRAW A TRIANGLE
+// let canvas = document.getElementById("myCanvas");
+// let context = canvas.getContext("2d");
+// context.fillStyle = "aqua";
+// context.lineWidth = 10;
+// context.strokeStyle = "red";
+// context.beginPath();
+// context.moveTo(250,0);
+// context.lineTo(0,250);
+// context.lineTo(500,250);
+// context.lineTo(250,0);
+// context.fill();
+// context.stroke();
+// //DRAW A RECTANGLE
+// let canvas = document.getElementById("myCanvas");
+// let context = canvas.getContext("2d");
+// context.strokeStyle = "red";
+// context.fillStyle = "aqua";
+// context.strokeRect(0,0, 250, 250);
+// context.fillRect(0,0, 250, 250);
+// context.stroke();
+// context.strokeStyle = "aqua";
+// context.fillStyle = "red";
+// context.strokeRect(250,250, 500, 500);
+// context.fillRect(250,250, 500, 500);
+// context.stroke();
+// //DRAW A CIRCLE
+// context.beginPath();
+// context.arc(250, 250, 200, 0, 2*Math.PI);
+// context.stroke();
+// //DRAW TEXT
+// context.font = "50px MV Boli";
+// context.fillStyle = "red";
+// context.textAlign = "center";
+// context.fillText("FUCK YOU", canvas.width/2, canvas.height/2);
 
 
 
